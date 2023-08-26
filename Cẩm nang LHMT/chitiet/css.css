@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.sanpham {
+    display: flex;
+    width: 90%;
+    max-width: 750px;
+    
+}
+
+.anhsanpham {
+    flex-basis: 47%;
+    background: #ffffff;
+    transform: scale(1.08);
+    box-shadow: -10px 5px 10px 10px rgba(0,0,0,0.1);
+}
+
+.anhsanpham img {
+    width: 100%;
+    display: block;
+    padding-top: 40px;
+
+}
+
+.chitiet {
+    flex-basis: 53%;
+    background: #99FF99;
+    padding: 40px;
+    padding-left: 60px;
+    box-shadow: -10px 5px 10px 10px rgba(0,0,0,0.1);
+    font-size: 17px;
+    font-weight: 500;
+    color: #49574d;
+        border:3px solid #99FF99;
+        width:900px;
+        height:540px;
+        overflow-x:hidden;
+        overflow-y:auto;
+    }
+
+.sanpham .chitiet h2 {
+    color: #365140;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
